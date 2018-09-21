@@ -52,7 +52,7 @@ def get_logger(*, logger_given=None, name=None, level=ERROR):
             with open(_config_file) as file:
                 fileConfig(fname=file)
             #
-            logger = getLogger(name='harvester')
+            logger = getLogger(name='harvesters')
 
         else:
             if not name:
