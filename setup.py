@@ -77,9 +77,9 @@ setuptools.setup(
     # A short, on-sentence summary of the package:
     description=description,
     # Location where the package may be downloaded:
-    download_url='https://pypi.org/project/harvesters/',
+    download_url='https://pypi.org/project/harvesters_util/',
     # A list of required Python modules:
-    install_requires=['numpy', 'genicam2'],
+    install_requires=[],
     #
     license='Apache Software License V2.0',
     # A detailed description of the package:
@@ -87,7 +87,7 @@ setuptools.setup(
     # The index to tell what type of markup is used for the long description:
     long_description_content_type='text/x-rst',
     # The name of the package:
-    name='harvesters',
+    name='harvesters_util',
     # A list of all Python import packages that should be included in the
     # distribution package:
     packages=setuptools.find_packages(where='src'),
@@ -101,24 +101,14 @@ setuptools.setup(
     # All the files that match package_data will be added to the MANIFEST
     # file if no template is provided:
     package_data={
-        'harvesters': [
-            os.path.join(
-                '_private', 'frontend', 'image', '*', '*.jpg'
-            ),
-            os.path.join(
-                '_private', 'frontend', 'image', '*', '*.png'
-            ),
-            os.path.join(
-                'logging', '*.ini'
-            ),
-        ]
+        'harvesters_util': []
     },
     # A list of supported platforms:
     platforms='any',
     #
-    provides=['harvesters'],
+    provides=['harvesters_util'],
     # The URL for the website of the project:
-    url='https://github.com/genicam/harvesters',
+    url='https://github.com/genicam/harvesters_util',
     # The package version:
     version=versioneer.get_version(),
 )
