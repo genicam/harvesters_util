@@ -30,7 +30,7 @@ import os
 # Local application/library specific imports
 
 
-_name = 'HARVESTER_LOGGING_CONFIG'
+_name = 'HARVESTERS_LOGGING_CONFIG'
 _config_file = None
 if _name in os.environ:
     _config_file = os.getenv(_name)
