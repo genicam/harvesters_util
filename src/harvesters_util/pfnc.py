@@ -334,13 +334,13 @@ mono_formats = [
     'Mono8', 'Mono10', 'Mono12', 'Mono14', 'Mono16'
 ]
 
-rgb_formats = [
+lmn_444_formats = [
     'RGB8', 'RGB10', 'RGB12', 'RGB14', 'RGB16',
     'BGR8', 'BGR10', 'BGR12', 'BGR14', 'BGR16',
     'RGB8Packed',
 ]
 
-rgba_formats = [
+lmno_4444_formats = [
     'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16'
 ]
 
