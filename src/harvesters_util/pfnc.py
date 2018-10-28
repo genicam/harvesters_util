@@ -330,13 +330,13 @@ def get_bits_per_pixel(data_format):
     return None
 
 
-mono_formats = [
+mono_location_formats = [
     'Raw', 'Mono', 'R', 'G', 'B',
     'Mono8', 'Mono10', 'Mono12', 'Mono14', 'Mono16',
     'Coord3D_A', 'Coord3D_B', 'Coord3D_C', 'Confidence',
 ]
 
-lmn_444_formats = [
+lmn_444_location_formats = [
     'RGB', 'BGR',
     'YUV', 'YCbCr', 'YCbCr601', 'YCbCr709',
     'RGB8', 'RGB10', 'RGB12', 'RGB14', 'RGB16',
@@ -345,24 +345,24 @@ lmn_444_formats = [
     'Coord3D_ABC',
 ]
 
-lmn_422_formats = [
+lmn_422_location_formats = [
     'YUV422', 'YCbCr422', 'YCbCr601_422', 'YCbCr709_422',
 ]
 
-lmn_411_formats = [
+lmn_411_location_formats = [
     'YUV411', 'YCbCr411', 'YCbCr601_411', 'YCbCr709_411',
 ]
 
-lmno_4444_formats = [
+lmno_4444_location_formats = [
     'aRGB', 'YRGB', 'RGBa', 'BGRa',
     'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16',
 ]
 
-lm_44_formats = [
+lm_44_location_formats = [
     'Coord3D_AC',
 ]
 
-bayer_formats = [
+bayer_location_formats = [
     #
     'BayerGR8', 'BayerGB8', 'BayerRG8', 'BayerBG8',
     #
