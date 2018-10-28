@@ -356,6 +356,7 @@ lmn_411_location_formats = [
 lmno_4444_location_formats = [
     'aRGB', 'YRGB', 'RGBa', 'BGRa',
     'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16',
+    'BGRa8', 'BGRa10', 'BGRa12', 'BGRa14', 'BGRa16',
 ]
 
 lm_44_location_formats = [
