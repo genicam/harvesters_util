@@ -331,17 +331,35 @@ def get_bits_per_pixel(data_format):
 
 
 mono_formats = [
-    'Mono8', 'Mono10', 'Mono12', 'Mono14', 'Mono16'
+    'Raw', 'Mono', 'R', 'G', 'B',
+    'Mono8', 'Mono10', 'Mono12', 'Mono14', 'Mono16',
+    'Coord3D_A', 'Coord3D_B', 'Coord3D_C', 'Confidence',
 ]
 
 lmn_444_formats = [
+    'RGB', 'BGR',
+    'YUV', 'YCbCr', 'YCbCr601', 'YCbCr709',
     'RGB8', 'RGB10', 'RGB12', 'RGB14', 'RGB16',
     'BGR8', 'BGR10', 'BGR12', 'BGR14', 'BGR16',
     'RGB8Packed',
+    'Coord3D_ABC',
+]
+
+lmn_422_formats = [
+    'YUV422', 'YCbCr422', 'YCbCr601_422', 'YCbCr709_422',
+]
+
+lmn_411_formats = [
+    'YUV411', 'YCbCr411', 'YCbCr601_411', 'YCbCr709_411',
 ]
 
 lmno_4444_formats = [
-    'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16'
+    'aRGB', 'YRGB', 'RGBa', 'BGRa',
+    'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16',
+]
+
+lm_44_formats = [
+    'Coord3D_AC',
 ]
 
 bayer_formats = [
