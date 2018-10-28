@@ -499,9 +499,22 @@ component_2d_formats = [
     'Confidence32f',
 ]
 
-component_bgr_formats = [
+rgb_formats = [
+    #
+    'RGB8', 'RGB10', 'RGB12', 'RGB14', 'RGB16',
+]
+
+rgba_formats = [
+    #
+    'RGBa8', 'RGBa10', 'RGBa12', 'RGBa14', 'RGBa16',
+]
+
+bgr_formats = [
     #
     'BGR8', 'BGR10', 'BGR12', 'BGR14', 'BGR16',
+]
+
+bgra_formats = [
     #
     'BGRa8', 'BGRa10', 'BGRa12', 'BGRa14', 'BGRa16',
 ]
